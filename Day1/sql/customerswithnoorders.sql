@@ -10,7 +10,7 @@
 
 -- Find all customers who never placed an order.
 
-USE MAY1;
+
 
 SELECT * FROM customers;
 SELECT * FROM orders;

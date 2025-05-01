@@ -8,7 +8,7 @@
 -- 🧩 Problem Statement:
 
 -- From the user_activity data, find users who were active for 3 or more consecutive days.
-Use MAY1;
+
 
 SELECT * FROM user_activity;
 

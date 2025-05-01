@@ -10,8 +10,7 @@
 -- # From the transactions data, find the first purchase (i.e. earliest txn_date) for each customer along with the amount.
 
 
-CREATE DATABASE MAY1;
-USE MAY1;
+
 
 SELECT * FROM transactions;
 
