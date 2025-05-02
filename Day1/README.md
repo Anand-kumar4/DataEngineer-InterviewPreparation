@@ -61,4 +61,4 @@ Feel free to fork or adapt the solutions for your own use case.
 ---
 
 **Author:** Anand Kumar Singh
-**LinkedIn:** [www.linkedin.com/in/anand-kumar-singh-830839ab](www.linkedin.com/in/anand-kumar-singh-830839ab)
+**LinkedIn:** [www.linkedin.com/in/anand-kumar-singh-830839ab](https://www.linkedin.com/in/anand-kumar-singh-830839ab)

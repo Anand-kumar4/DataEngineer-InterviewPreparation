@@ -70,4 +70,4 @@ Suggestions and improvements are welcome! This project is built for interview pr
 
 ## 🔗 Author & Community
 
-Maintained by **Anand Kumar Singh** for personal and public learning. Connect on [LinkedIn](www.linkedin.com/in/anand-kumar-singh-830839ab) or star the repo to support more content!
+Maintained by **Anand Kumar Singh** for personal and public learning. Connect on [LinkedIn](https://www.linkedin.com/in/anand-kumar-singh-830839ab) or star the repo to support more content!
