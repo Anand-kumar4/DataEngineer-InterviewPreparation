@@ -12,7 +12,7 @@
 
 
 
-SELECT * FROM transactions;
+
 
 SELECT
 	customer_id,

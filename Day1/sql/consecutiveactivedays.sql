@@ -10,7 +10,6 @@
 -- From the user_activity data, find users who were active for 3 or more consecutive days.
 
 
-SELECT * FROM user_activity;
 
 WITH numbered AS(
 	SELECT

@@ -12,8 +12,6 @@
 
 
 
-SELECT * FROM customers;
-SELECT * FROM orders;
 
 SELECT
 	c.customer_id,

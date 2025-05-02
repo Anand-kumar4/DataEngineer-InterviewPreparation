@@ -11,7 +11,6 @@
 
 
 
-SELECT * FROM sales;
 
 SELECT
 	date,

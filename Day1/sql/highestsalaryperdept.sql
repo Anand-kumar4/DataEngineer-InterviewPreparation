@@ -10,7 +10,6 @@
 -- From the employees table, find the employee(s) with the highest salary in each department.
 -- If multiple employees share the top salary in the same department, include them all.
 
-SELECT * FROM employees;
 
 SELECT
 	emp_id,
