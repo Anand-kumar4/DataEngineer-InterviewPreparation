@@ -16,6 +16,10 @@ DataEngineer-InterviewPreparation/
 │   ├── data/
 │   ├── pyspark/
 │   └── sql/
+├── Day3/
+│   ├── data/
+│   ├── pyspark/
+│   └── sql/
 └── README.md             # Repository overview
 ```
 
