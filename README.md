@@ -43,6 +43,15 @@ DataEngineer-InterviewPreparation/
 | 4 | Products That Were Never Sold              | LEFT JOIN IS NULL / ANTI JOIN   |
 | 5 | Revenue Contribution % Per Product per Day | SUM + Ratio + ROUND over Window |
 
+### 📅 Day 3: Multi-Row Analysis & Comparison
+
+| # | Problem                                             | Focus Area                          |
+| - | --------------------------------------------------- | ----------------------------------- |
+| 1 | Latest 2 Orders per Customer                        | ROW\_NUMBER + ORDER BY DESC         |
+| 2 | Transaction Comparison with Strictly Increasing     | LAG + SUM + Boolean Aggregation     |
+| 3 | Products Never Purchased                            | LEFT ANTI JOIN                      |
+| 4 | Top-Selling Product per Region                      | DENSE\_RANK over SUM Partition      |
+
 ---
 
 ## 🛠 Technologies Used
