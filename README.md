@@ -56,6 +56,18 @@ DataEngineer-InterviewPreparation/
 | 3 | Products Never Purchased                            | LEFT ANTI JOIN                      |
 | 4 | Top-Selling Product per Region                      | DENSE\_RANK over SUM Partition      |
 
+### 📅 Day 4: Grouping, Flags, First Events, and Deduplication
+
+| # | Problem                                         | Focus Area                          |
+| - | ----------------------------------------------- | ----------------------------------- |
+| 1 | Group Books per User                            | GROUP BY + COLLECT_LIST             |
+| 2 | Users with All NULL Purchases                   | COUNT NULL Logic                    |
+| 3 | Top Region by Avg Revenue per Product           | DENSE_RANK + AVG over group         |
+| 4 | Flag High vs Low Value Transactions             | CASE WHEN / WHEN + OTHERWISE        |
+| 5 | Customers with Exactly 2 Distinct Amounts       | COUNT DISTINCT with filter          |
+| 6 | First Purchase per Customer                     | ROW_NUMBER over partition           |
+| 7 | Customers Who Bought Same Product More Than Once| GROUP BY + COUNT > 1                |
+
 ---
 
 ## 🛠 Technologies Used

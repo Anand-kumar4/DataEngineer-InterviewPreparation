@@ -1,0 +1,7 @@
+customer_id,product,purchase_date
+1,Book1,2024-01-01
+1,Book2,2024-01-05
+2,Book3,2024-01-03
+2,Book1,2024-01-07
+3,Book2,2024-01-02
+3,Book4,2024-01-08
