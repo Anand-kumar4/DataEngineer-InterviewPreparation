@@ -1,0 +1,4 @@
+txn_id,items
+1,"['item1', 'item2']"
+2,['item3']
+3,"['item4', 'item5', 'item6']"

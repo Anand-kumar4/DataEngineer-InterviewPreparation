@@ -2,6 +2,8 @@
 
 This repository is a structured collection of real-world PySpark and SQL coding problems aimed at preparing for data engineering interviews. Each day includes 5 problems with matching PySpark and SQL implementations, clean datasets, and GitHub-ready structure.
 
+It includes use of Apache Spark (PySpark), SQL (MySQL-compatible), and common DataFrame operations such as joins, aggregations, window functions, and more.
+
 ---
 
 ## ✅ Folder Structure
@@ -17,6 +19,14 @@ DataEngineer-InterviewPreparation/
 │   ├── pyspark/
 │   └── sql/
 ├── Day3/
+│   ├── data/
+│   ├── pyspark/
+│   └── sql/
+├── Day4/
+│   ├── data/
+│   ├── pyspark/
+│   └── sql/
+├── Day5/
 │   ├── data/
 │   ├── pyspark/
 │   └── sql/
@@ -55,6 +65,30 @@ DataEngineer-InterviewPreparation/
 | 2 | Transaction Comparison with Strictly Increasing     | LAG + SUM + Boolean Aggregation     |
 | 3 | Products Never Purchased                            | LEFT ANTI JOIN                      |
 | 4 | Top-Selling Product per Region                      | DENSE\_RANK over SUM Partition      |
+
+### 📅 Day 4: Grouping, Flags, First Events, and Deduplication
+
+| # | Problem                                         | Focus Area                          |
+| - | ----------------------------------------------- | ----------------------------------- |
+| 1 | Group Books per User                            | GROUP BY + COLLECT_LIST             |
+| 2 | Users with All NULL Purchases                   | COUNT NULL Logic                    |
+| 3 | Top Region by Avg Revenue per Product           | DENSE_RANK + AVG over group         |
+| 4 | Flag High vs Low Value Transactions             | CASE WHEN / WHEN + OTHERWISE        |
+| 5 | Customers with Exactly 2 Distinct Amounts       | COUNT DISTINCT with filter          |
+| 6 | First Purchase per Customer                     | ROW_NUMBER over partition           |
+| 7 | Customers Who Bought Same Product More Than Once| GROUP BY + COUNT > 1                |
+
+### 📅 Day 5: Advanced Date & String Use Cases
+
+| # | Problem                                                | Focus Area                                |
+| - | ------------------------------------------------------ | ----------------------------------------- |
+| 1 | Find Second Purchase Date per Customer                 | ROW_NUMBER + partition                    |
+| 2 | Compute Running Average Revenue per Product            | AVG + Window + cumulative range           |
+| 3 | Consecutive Purchase Streaks per Customer              | Row logic + DATE_DIFF + group detection   |
+| 4 | Top 2 Products by Total Revenue per Region             | DENSE_RANK + SUM over group               |
+| 5 | Flatten Multi-Item Transactions into Rows              | SPLIT + EXPLODE + TRIM                    |
+| 6 | Fill in Missing Dates with Zero Revenue                | DATE SEQUENCE + LEFT JOIN + COALESCE      |
+| 7 | Detect Churned Customers Based on 30-Day Inactivity    | MAX(date) + DATE_DIFF + filter condition  |
 
 ### 📅 Day 4: Grouping, Flags, First Events, and Deduplication
 
