@@ -90,17 +90,7 @@ DataEngineer-InterviewPreparation/
 | 6 | Fill in Missing Dates with Zero Revenue                | DATE SEQUENCE + LEFT JOIN + COALESCE      |
 | 7 | Detect Churned Customers Based on 30-Day Inactivity    | MAX(date) + DATE_DIFF + filter condition  |
 
-### 📅 Day 4: Grouping, Flags, First Events, and Deduplication
 
-| # | Problem                                         | Focus Area                          |
-| - | ----------------------------------------------- | ----------------------------------- |
-| 1 | Group Books per User                            | GROUP BY + COLLECT_LIST             |
-| 2 | Users with All NULL Purchases                   | COUNT NULL Logic                    |
-| 3 | Top Region by Avg Revenue per Product           | DENSE_RANK + AVG over group         |
-| 4 | Flag High vs Low Value Transactions             | CASE WHEN / WHEN + OTHERWISE        |
-| 5 | Customers with Exactly 2 Distinct Amounts       | COUNT DISTINCT with filter          |
-| 6 | First Purchase per Customer                     | ROW_NUMBER over partition           |
-| 7 | Customers Who Bought Same Product More Than Once| GROUP BY + COUNT > 1                |
 
 ---
 

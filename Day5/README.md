@@ -26,7 +26,7 @@ This folder contains advanced and medium-complexity interview-style coding quest
 
 6. **Fill in Missing Dates with Zero Revenue**  
    📄 `revenue_with_gaps.csv`  
-   🧠 Use: sequence() + explode() + join()
+   🧠 Use: sequence() + explode() + join() *(PySpark only)*
 
 7. **Detect Inactive (Churned) Customers Based on 30-Day Inactivity**  
    📄 `churn_check.csv`  
@@ -58,7 +58,6 @@ Day5/
 │   ├── consecutive_purchase_streaks.sql
 │   ├── top_n_products_by_revenue.sql
 │   ├── explode_multi_item_txns.sql
-│   ├── fill_missing_dates.sql
 │   └── churned_customers.sql
 ```
 
