@@ -30,6 +30,10 @@ DataEngineer-InterviewPreparation/
 │   ├── data/
 │   ├── pyspark/
 │   └── sql/
+├── Day6/
+│   ├── data/
+│   ├── pyspark/
+│   └── sql/
 └── README.md             # Repository overview
 ```
 
@@ -89,6 +93,18 @@ DataEngineer-InterviewPreparation/
 | 5 | Flatten Multi-Item Transactions into Rows              | SPLIT + EXPLODE + TRIM                    |
 | 6 | Fill in Missing Dates with Zero Revenue                | DATE SEQUENCE + LEFT JOIN + COALESCE      |
 | 7 | Detect Churned Customers Based on 30-Day Inactivity    | MAX(date) + DATE_DIFF + filter condition  |
+
+### 📅 Day 6: Real-World Scenarios & Sessionization
+
+| # | Problem                                             | Focus Area                                |
+| - | --------------------------------------------------- | ----------------------------------------- |
+| 1 | Monthly Top Spenders                                | GROUP BY + SUM + RANK                     |
+| 2 | Order-to-Delivery Duration                          | DATEDIFF between two columns              |
+| 3 | Join Orders with First Product Purchased            | ROW_NUMBER join on customer_id            |
+| 4 | Category-wise Revenue % Contribution                | SUM + JOIN + ratio + ROUND                |
+| 5 | Repeat Buyers Within a Week                         | LAG + DATEDIFF + DISTINCT FILTER          |
+| 6 | Sessionize Web Events                               | LAG + TIMESTAMPDIFF + SUM() OVER          |
+| 7 | Product Category Popularity Trends                  | LAG + Revenue Trend Logic                 |
 
 
 

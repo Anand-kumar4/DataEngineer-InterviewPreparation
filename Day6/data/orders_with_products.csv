@@ -1,0 +1,6 @@
+order_id,customer_id,order_date,product
+201,1,2024-04-01,Laptop
+202,1,2024-04-05,Mouse
+203,2,2024-04-02,Keyboard
+204,3,2024-04-03,Monitor
+205,3,2024-04-06,Mouse
